@@ -25,9 +25,7 @@ build/
 *.ipr
 out/
 
-
 ### NetBeans ###
-# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -40,7 +38,7 @@ out/
 .vscode/
 
 # Archivos de configuración específicos de la aplicación
-/application.properties
+src/main/resources/application.properties
 
 # Archivos de log y datos temporales
 *.log
