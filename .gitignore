@@ -1,5 +1,10 @@
 HELP.md
+
+# Carpeta de compilación
 target/
+build/
+
+# Configuración de Maven
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -14,23 +19,36 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
+
 
 ### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
-### Properties ###
+# Archivos de configuración específicos de la aplicación
 /application.properties
+
+# Archivos de log y datos temporales
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Otras configuraciones comunes
+.env
